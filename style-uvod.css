@@ -46,7 +46,7 @@ nav ul li a {
 
 
 main {
-    background: url(../hlavni-strana/pozadi.jpg) no-repeat;
+    background: url(pozadi.jpg) no-repeat;
     background-size: cover;
     height: 1100px;
 
