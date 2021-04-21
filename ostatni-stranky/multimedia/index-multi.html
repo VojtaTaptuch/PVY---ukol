@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multimédia</title>
+    <link rel="stylesheet" href="../../styly/style-multi.css">
 </head>
 <body>
+    <nav>
+        <ul class="nav-links">
+          <li><a href="../../index.html">Menu</a></li>
+          <li><a href="../tabulka/index-tab.html">Tabulka</a></li>
+          <li><a href="../multimedia/index-multi.html">Multimédia</a></li>
+          <li><a href="../fotogalerie/index-foto.html">Fotogalerie</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Multimédia</h1>
+    </header>
+
+    <main>
+        <h2>Obrázky v HTML</h2>
+        <figure>
+            <img src="../../fotky/strom.jpg" alt="Strom">
+            <figcaption>Náhodný strom</figcaption>
+        </figure>
+        <h2>Audio a video v HTML</h2>
+        <figure>
+            <video width="400" controls>
+                <source src="../../fotky/video.mp4" type="video/mp4">
+                Váš prohlížeč tento formát nepodporuje.
+              </video> 
+              <figcaption>Video adaptéru na SD kartu</figcaption>             
+    </figure>
+    <figure>
+        <audio controls>
+            <source src="../../fotky/Amaranthe - The Nexus.mp3" type="audio/mpeg">
+            Váš prohlížeč tento formát nepodporuje.
+          </audio>
+          <figcaption>Písnička on skupiny Amaranthe</figcaption>
+    </figure>
+    <h2>Video z Youtube</h2>
+    <iframe width="650" height="315"
+    src="https://www.youtube.com/embed/R0H0X0KXzbA">
+    </iframe>
+    </main>
     
 </body>
 </html>
