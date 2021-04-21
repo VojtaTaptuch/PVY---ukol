@@ -84,7 +84,7 @@ table, th, td {
 
 caption {
     color: white;
-    background-color: blue;
+    background-color: rgb(1, 1, 14);
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -94,14 +94,8 @@ caption {
 .odkaz {
     text-align: center;
     color: white;
-    background-color: blue;
+    background-color: black
 }
-
-.first {
-    background-color: rgb(4, 160, 4);
-}
-
-
 
 
 h2 {
@@ -110,7 +104,7 @@ h2 {
     border-radius: 10px;
     width: 50%;
     margin-left: 48px;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     border: 1px solid #2c3e50;
 }
 

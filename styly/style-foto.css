@@ -1,0 +1,75 @@
+header {
+    text-align: center;
+
+
+
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    min-height: 8vh;
+    
+
+
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+
+
+
+
+}
+.nav-links a {
+    color: ivory;
+    text-decoration: none;
+    font-family: 'Potta One', cursive;
+
+
+
+}
+
+.nav-links li {
+    list-style: none;
+
+
+}
+
+body {
+    margin: auto;
+    
+
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
