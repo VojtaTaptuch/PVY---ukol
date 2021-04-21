@@ -1,0 +1,121 @@
+main {
+margin-left: 530px;
+
+}
+
+header {
+    text-align: center;
+
+
+
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    min-height: 8vh;
+    
+
+
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+
+
+
+
+}
+.nav-links a {
+    color: ivory;
+    text-decoration: none;
+    font-family: 'Potta One', cursive;
+
+
+
+}
+
+.nav-links li {
+    list-style: none;
+
+
+}
+
+header h1 {
+    padding: 20px;
+    font-size: 35px;
+
+}
+main h1 {
+    font-size: 25px;
+
+
+}
+
+body {
+    margin: auto;
+    
+
+
+}
+
+a {
+    color: white;
+}
+
+table, th, td {
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+caption {
+    color: white;
+    background-color: blue;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.odkaz {
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+.first {
+    background-color: rgb(4, 160, 4);
+}
+
+
+
+
+h2 {
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 48px;
+    background-color: blue;
+    border: 1px solid #2c3e50;
+}
+
+
+
+
+
+

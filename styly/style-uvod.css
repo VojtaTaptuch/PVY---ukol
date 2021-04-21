@@ -9,7 +9,7 @@
 
 }
 nav{
-    background: rgb(107, 74, 226);
+    background: blue;
     height: 80px;
     width: 100%;
 
@@ -27,7 +27,7 @@ label.logo {
 }
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 190px;
 
 
 
@@ -35,7 +35,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 0 50px;
+    margin: 0 90px;
     font-family: 'Potta One', cursive;
 
 }
@@ -46,7 +46,7 @@ nav ul li a {
 
 
 main {
-    background: url(pozadi.jpg) no-repeat;
+    background: url(../hlavni-strana/pozadi.jpg) no-repeat;
     background-size: cover;
     height: 1100px;
 

@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabulka</title>
+    <link rel="stylesheet" href="../../styly/style-tabulka.css">
 </head>
+<nav>
+    <ul class="nav-links">
+      <li><a href="../../hlavni-strana/index.html">Menu</a></li>
+      <li><a href="../tabulka/index.html">Tabulka</a></li>
+      <li><a href="../multimédia/index.html">Multimédia</a></li>
+      <li><a href="../fotogalerie/index.html">Fotogalerie</a></li>
+    </ul>
+</nav>
 <body>
     
-</body>
+        <header>
+            <h1>Tabulky v HTML <i class="fa fa-table" aria-hidden="true"></i></h1>
+        </header>
+        <main>
+            <h2>Slavná osobnost: Karel IV. <i class="fa fa-user" aria-hidden="true"></i></h2>
+            <table border="1">
+                <caption>Vizitka slavné osobnosti</caption>
+                <thead>
+                    <tr>
+                        <th class="first">Portrét</th>
+                        <th class="first" colspan="2">Základní údaje</th>
+                        <th class="first">Významné činy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="second" rowspan="3"><img class="lada" src="fotka karel.jpg" alt="Karel IV."></td>
+                        <td class="second" colspan="2">Karel IV. Lucemburský</td>
+                        <td class="second" rowspan="4"> Stal se císařem Svaté Říše Římské <br> Založil Nové Město Pražské <br> Založil Pražskou Univerzitu <br> Započal stavbu Svatovítského Chrámu
+                        </td
+                    </tr>
+                    <tr>
+    <td class="second"><i class="fa fa-battery-full" aria-hidden="true"></i>14. května 1316, Praha</td>
+                        <td class="second"><i class="fa fa-battery-empty" aria-hidden="true"></i>29. listopadu 1378, Praha</td>
+                    </tr>
+                    <tr>
+                        <td class="second" rowspan="2" colspan="2"> Český panovník <br> císař Svaté Říše Římské <br>
+                        Byl to asi nejvýznamější český král, který kdy žil, <br> povedlo se mu významně rozšířit český stát <br> a to díky sňatkové politice. Postavil významný <br> Karlův most přes Vltavu.</td>
+                    </tr>
+                    <tr>
+                        <td class="second">Král Karel IV.</td>
+                    </tr>
+                    <tr>
+                        <td class="odkaz" colspan="4"><a href="https://cs.wikipedia.org/wiki/Karel_IV."
+                                target="_blank">Wikipedie <i class="fa fa-link" aria-hidden="true"></i></a></td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </main>
+        <footer>
+            <hr>
+            <p>&copy; 2021 - IT1 Ťapťuch</p>
+        </footer>
+    </body>
 </html>
+        
